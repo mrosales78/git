@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+
     <title>titulo</title>
+    <style>
+        p{
+            color: blue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <header> <H2>Soy el header de la pagina</H2>
@@ -12,9 +20,9 @@
     </header>
 
     <nav>
-        <H2>soy el navegador</H2> <!-- alt+shif+a abre estos comentarios -->
+        <H2 class="soloyo">soy el navegador</H2> <!-- alt+shif+a abre estos comentarios -->
 
-        <ul><!-- listas desordenadas -->
+        <ul class="centrar"><!-- listas desordenadas -->
             <li><!-- items de listas -->
                 <a href="index.html">HOME</a> <!-- las anclas permiten la navegacion -->
             </li>
@@ -30,7 +38,7 @@
     </nav>
 
     <main id="Main"> 
-        <h1>Etiqueta de nivel 1
+        <h1 style="color: green;">Etiqueta de nivel 1
 
         </h1>
         <hr>
@@ -39,7 +47,7 @@
             <article>
                 <h3> alimentos</h3>
                 <img src="./imagenes/comida saludable.jpeg" alt="imagen de una alimentacion sana">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est quia, rerum, id tempore sit adipi</p>
+        <p id="miparrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est quia, rerum, id tempore sit adipi</p>
             </article>
             <article>
                 <h3> imagen en el servidor</h3>
@@ -56,7 +64,7 @@
         <section>
             <article>
                 <h3> alimentos</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est quia, rerum, id tempore sit adipi</p>
+        <p class="micolor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est quia, rerum, id tempore sit adipi</p>
             </article>
             <article>
                 <h3> alimentos</h3>
@@ -86,6 +94,11 @@
     </main>
     
     <footer> 
-        soy el pie de pagina </footer>
+        <h2>soy el pie de pagina 
+
+        </h2>
+
+    
+    </footer>
 </body>
 </html>
